@@ -1,0 +1,21 @@
+{
+  "servers": {
+    "context7": {
+      "type": "stdio",
+      "command": "pnpm",
+      "args": [
+        "dlx",
+        "@upstash/context7-mcp@latest"
+      ],
+      "envFile": "${workspaceFolder}/.env.local"
+    },
+    "shadcn": {
+      "command": "pnpm",
+      "args": [
+        "dlx",
+        "shadcn@latest",
+        "mcp"
+      ]
+    }
+  }
+}
