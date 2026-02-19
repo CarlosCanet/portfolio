@@ -3,19 +3,16 @@
     "context7": {
       "type": "stdio",
       "command": "pnpm",
-      "args": [
-        "dlx",
-        "@upstash/context7-mcp@latest"
-      ],
+      "args": ["dlx", "@upstash/context7-mcp@latest"],
       "envFile": "${workspaceFolder}/.env.local"
     },
     "shadcn": {
       "command": "pnpm",
-      "args": [
-        "dlx",
-        "shadcn@latest",
-        "mcp"
-      ]
+      "args": ["dlx", "shadcn@latest", "mcp"]
+    },
+    "@magicuidesign/mcp": {
+      "command": "pnpm",
+      "args": ["dlx", "@magicuidesign/mcp@latest"]
     }
   }
 }
