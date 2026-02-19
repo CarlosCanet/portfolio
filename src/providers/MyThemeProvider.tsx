@@ -2,14 +2,9 @@
 import { ThemeProvider } from "next-themes";
 function MyThemeProvider({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <ThemeProvider
-      attribute="class"
-      defaultTheme="dark"
-      enableSystem
-      disableTransitionOnChange
-    >
+    <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
       {children}
     </ThemeProvider>
   );
 }
-export default MyThemeProvider
+export default MyThemeProvider;
